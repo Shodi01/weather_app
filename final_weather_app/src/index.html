@@ -29,7 +29,7 @@
                 autocomplete="off"
                 id="search-city"
                 class="form-control"
-                />
+              />
             </div>
             <div class="col-3">
               <input
@@ -56,35 +56,33 @@
           </ul>
         </div>
         <div class="row">
-            <div class="col-6">
-              <div class="clearfix weather-temperature">
-                <img src="" alt="Clear" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature"></strong
-                  ><span class="units"> °C</span>
-                </div>
+          <div class="col-6">
+            <div class="clearfix weather-temperature">
+              <img
+                src="./media/cloud-solid.svg"
+                alt="Clear"
+                id="icon"
+                class="float-left"
+              />
+              <div class="float-left">
+                <strong id="temperature"></strong><span class="units"> °C</span>
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> km/h</li>
-              </ul>
-            </div>
           </div>
-          <div class="weather-forecast" id="forecast"></div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
+          </div>
         </div>
-        <small>
-          <a
-            href=""
-            target="_blank"
-            >Repository</a
-          >
-          by L Moshodi
-        </small>
+        <div class="weather-forecast" id="forecast"></div>
       </div>
+      <small>
+        <a href="" target="_blank">Repository</a>
+        by L Moshodi
+      </small>
     </div>
-
     <script src="src/java.js" type="module"></script>
   </body>
 </html>
